@@ -1,0 +1,21 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</llms.txt>; rel=\"describedby\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </andrii_taran_cv.pdf>; rel=\"alternate\"; type=\"application/pdf\"; title=\"CV PDF\", <https://linkedin.com/in/nomadmao>; rel=\"me\""
+        },
+        {
+          "key": "Content-Signal",
+          "value": "search=yes, ai-train=no, ai-input=yes"
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        }
+      ]
+    }
+  ]
+}

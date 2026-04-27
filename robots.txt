@@ -1,51 +1,74 @@
-# robots.txt — nomadmao.com
+# robots.txt — andriiitaran.dev
+# Updated with Content Signals (draft-romm-aipref-contentsignals)
+# https://contentsignals.org/
 
-# Allow all standard crawlers
+# ── Default: allow all crawlers ──────────────────────────────────────────────
 User-agent: *
 Allow: /
 Disallow:
 
-# Google
+# Content preferences for all bots (global default):
+#   search=yes    → index this site in search results
+#   ai-train=no   → do not use content to train AI/ML models
+#   ai-input=yes  → AI agents may use this content as context/input (RAG etc.)
+Content-Signal: search=yes, ai-train=no, ai-input=yes
+
+
+# ── Standard search crawlers ──────────────────────────────────────────────────
 User-agent: Googlebot
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
-# Bing
 User-agent: Bingbot
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
-# === AI / LLM crawlers ===
+
+# ── AI / LLM crawlers ─────────────────────────────────────────────────────────
 
 # OpenAI (ChatGPT Browse, GPT plugins)
 User-agent: GPTBot
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
-# OpenAI image crawler
+# OpenAI search
 User-agent: OAI-SearchBot
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
 # Perplexity AI
 User-agent: PerplexityBot
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
 # Anthropic (Claude)
 User-agent: ClaudeBot
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
+
 User-agent: anthropic-ai
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
 # Google AI (Gemini, AI Overviews)
 User-agent: Google-Extended
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
 # Meta AI
 User-agent: FacebookBot
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
 # Common AI scrapers
 User-agent: CCBot
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
+
 User-agent: cohere-ai
 Allow: /
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 
-# Sitemap location
-Sitemap: https://nomadmao.com/sitemap.xml
+
+# ── Sitemap ───────────────────────────────────────────────────────────────────
+Sitemap: https://www.nomadmao.com/sitemap.xml
