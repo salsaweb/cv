@@ -1,3 +1,4 @@
+// middleware.js — place in project root
 // Vercel Edge Middleware: runs at the CDN edge on every request
 // Handles:
 //   1. Accept: text/markdown → serve llms.txt as markdown CV for AI agents
@@ -5,7 +6,7 @@
 //   3. Adds Content-Signal header declaring AI usage preferences
 
 export const config = {
-  matcher: ["/()", "/index.html"],
+  matcher: ["/", "/index.html"],
 };
 
 export default async function middleware(request) {
