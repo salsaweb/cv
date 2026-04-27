@@ -1,0 +1,51 @@
+# robots.txt — nomadmao.com
+
+# Allow all standard crawlers
+User-agent: *
+Allow: /
+Disallow:
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# === AI / LLM crawlers ===
+
+# OpenAI (ChatGPT Browse, GPT plugins)
+User-agent: GPTBot
+Allow: /
+
+# OpenAI image crawler
+User-agent: OAI-SearchBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI (Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Common AI scrapers
+User-agent: CCBot
+Allow: /
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap location
+Sitemap: https://nomadmao.com/sitemap.xml

@@ -1,0 +1,65 @@
+# Andrii Taran
+
+> Senior Full Stack Engineer with 15+ years of experience building scalable web applications and APIs. Based in Mexico, open to remote roles in the EU, US and LATAM.
+
+## Who I am
+
+Andrii Taran is a Senior Full Stack Engineer specializing in React, Next.js, PHP (Laravel, CodeIgniter), Node.js, PostgreSQL, MySQL, Docker, and Supabase. He has deep expertise in system architecture, API design, and performance optimization. He has worked in fully remote distributed teams since 2015 and is experienced in Agile and SCRUM methodologies.
+
+## Contact
+
+- Email: taran_andrii@yahoo.com
+- Phone: +52 998 213 11 67
+- Location: Mexico City, Mexico (UTC-6)
+- Availability: Open to remote full-time or contract roles (EU / US / LATAM timezone compatible)
+
+## Tech stack
+
+- Frontend: React, Next.js, Vue
+- Backend: PHP (Laravel, CodeIgniter), Node.js
+- Databases: MySQL, PostgreSQL
+- Tools & Cloud: Docker, Supabase, REST APIs
+- Strengths: System architecture, performance optimization, API design, scalable systems
+
+## Work history
+
+**Luep** — Senior Full Stack Engineer (Aug 2020 – Apr 2025, Remote)
+Designed scalable RESTful APIs, integrated backend with Next.js frontend, improved API response times by ~30%, contributed to architecture decisions in Agile team.
+
+**Needls Media Inc** — Full Stack Engineer (Nov 2016 – Aug 2020, Remote)
+Optimized backend and database performance for advertising platform, integrated Facebook Marketing API, improved system scalability.
+
+**NOVP** — Lead Full Stack Engineer (Jun 2015 – May 2016, Remote)
+Led developer team, built full stack REST API and frontend systems, improved delivery workflows.
+
+**Norse Digital** — Full Stack Engineer (Feb 2011 – Nov 2015, Odessa, Ukraine)
+SugarCRM/SKIDATA integration, REST API development, SCRUM delivery, legacy CMS (eZ Publish) maintenance. Contributed to Skiioo — a B2B2C platform for ski resorts.
+
+**Bridge Ukraine** — PHP Developer (Jul 2007 – Jan 2011, Odessa, Ukraine)
+Built dynamic PHP web applications, database integrations, frontend collaboration.
+
+## Education
+
+- Specialist, Computer Systems — Odessa State Polytechnic University
+- Bachelor, Computer Systems — Odessa State Polytechnic University
+
+## Languages
+
+- Ukrainian: Native
+- Russian: Fluent
+- English: Intermediate
+- Spanish: Basic
+
+## Additional
+
+- 12+ years of fully remote work across distributed international teams
+- Strong async communication and self-management skills
+- Interests: cooking, breathwork facilitation, water movement practices, music
+
+## Pages
+
+- [Full CV & Portfolio](https://nomadmao.com/)
+- [Experience](https://nomadmao.com/#experience)
+- [Skills](https://nomadmao.com/#skills)
+- [Contact](https://nomadmao.com/#contact)
+- [Download CV PDF](https://nomadmao.com/andrii_taran_cv.pdf)
