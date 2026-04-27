@@ -8,7 +8,7 @@ Andrii Taran is a Senior Full Stack Engineer specializing in React, Next.js, PHP
 
 ## Contact
 
-- Email: taran_andrii@yahoo.com
+- Email: dev.taran@proton.me
 - Phone: +52 998 213 11 67
 - Location: Mexico City, Mexico (UTC-6)
 - Availability: Open to remote full-time or contract roles (EU / US / LATAM timezone compatible)
