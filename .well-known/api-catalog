@@ -1,0 +1,82 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.nomadmao.com/",
+
+      "service-doc": [
+        {
+          "href": "https://www.nomadmao.com/",
+          "type": "text/html",
+          "title": "Andrii Taran — CV & Portfolio"
+        }
+      ],
+
+      "service-desc": [
+        {
+          "href": "https://www.nomadmao.com/llms.txt",
+          "type": "text/plain",
+          "title": "Machine-readable CV summary for AI agents"
+        }
+      ],
+
+      "alternate": [
+        {
+          "href": "https://www.nomadmao.com/andrii_taran_cv.pdf",
+          "type": "application/pdf",
+          "title": "CV — PDF download"
+        },
+        {
+          "href": "https://www.nomadmao.com/",
+          "type": "text/markdown",
+          "title": "CV — Markdown (send Accept: text/markdown)"
+        }
+      ],
+
+      "describedby": [
+        {
+          "href": "https://www.nomadmao.com/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+
+      "status": [
+        {
+          "href": "https://www.nomadmao.com/",
+          "title": "Homepage availability"
+        }
+      ]
+    },
+
+    {
+      "anchor": "https://www.nomadmao.com/llms.txt",
+
+      "service-doc": [
+        {
+          "href": "https://llmstxt.org/",
+          "type": "text/html",
+          "title": "llms.txt specification"
+        }
+      ],
+
+      "type": [
+        {
+          "href": "https://www.nomadmao.com/llms.txt",
+          "type": "text/plain",
+          "title": "Plain-text markdown CV for LLM consumption"
+        }
+      ]
+    },
+
+    {
+      "anchor": "https://www.nomadmao.com/sitemap.xml",
+
+      "service-desc": [
+        {
+          "href": "https://www.nomadmao.com/sitemap.xml",
+          "type": "application/xml",
+          "title": "XML Sitemap"
+        }
+      ]
+    }
+  ]
+}

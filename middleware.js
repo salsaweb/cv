@@ -1,4 +1,3 @@
-// middleware.js — place in project root
 // Vercel Edge Middleware: runs at the CDN edge on every request
 // Handles:
 //   1. Accept: text/markdown → serve llms.txt as markdown CV for AI agents
@@ -19,6 +18,7 @@ export default async function middleware(request) {
     '</sitemap.xml>; rel="sitemap"; type="application/xml"',
     '</andrii_taran_cv.pdf>; rel="alternate"; type="application/pdf"; title="CV PDF"',
     '<https://linkedin.com/in/nomadmao>; rel="me"',
+    '</.well-known/api-catalog>; rel="api-catalog"',
   ].join(", ");
 
   const contentSignal = "search=yes, ai-train=no, ai-input=yes";
